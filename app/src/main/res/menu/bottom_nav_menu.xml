@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/realizar_pedidos"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/realizar_pedidos" />
+    <item
+        android:id="@+id/verificar_pedido"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="@string/pedidos_x_entregar" />
+
+    <item
+        android:id="@+id/en_espera"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/registrar_producto" />
+
+</menu>

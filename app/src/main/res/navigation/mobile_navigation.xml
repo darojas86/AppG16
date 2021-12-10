@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.appg16.ui.vistas.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/frag_inicio" />
+    <fragment
+        android:id="@+id/realizar_pedidos"
+        android:name="com.example.appg16.ui.vistas.SeleccionarProductoFragment"
+        android:label="@string/realizar_pedidos"
+        tools:layout="@layout/frag_seleccionar_productos" />
+
+    <fragment
+        android:id="@+id/verificar_pedido"
+        android:name="com.example.appg16.ui.vistas.verificar_pedidoFragment"
+        android:label="@string/pedidos_x_entregar"
+        tools:layout="@layout/frag_verificar_pedido" />
+
+    <fragment
+        android:id="@+id/en_espera"
+        android:name="com.example.appg16.ui.vistas.En_Espera_Fragment"
+        android:label="@string/registrar_producto"
+        tools:layout="@layout/frag_en_espera" >
+        <action
+            android:id="@+id/action_en_espera_to_action_en_espera"
+            app:destination="@id/en_espera" />
+        <action
+            android:id="@+id/action_en_espera_to_verificar_pedido2"
+            app:destination="@id/verificar_pedido" />
+    </fragment>
+</navigation>

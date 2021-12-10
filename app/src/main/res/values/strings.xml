@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fruty</string>
+    <string name="page_title">titulo_menu</string>
+    <string name="favorite">favorito</string>
+    <string name="content_description_favorite">des_favorito</string>
+    <string name="search">buscar</string>
+    <string name="content_description_search">des_buscar</string>
+    <string name="more">mas</string>
+    <string name="content_description_more">des_mas</string>
+    <string name="title_activity_home">home</string>
+
+    <!-- Menu -->
+    <string name="home">Inicio</string>
+    <string name="realizar_pedidos">Realizar Pedido</string>
+    <string name="pedidos_x_entregar">Verificar Pedido</string>
+    <string name="registrar_producto">En Espera</string>
+
+    //String para asyncTask
+    <string name="napping">siesta</string>
+
+
+</resources>
